@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cat k107 | grep SSD_Single | sed 's/^[ \t]*//g' > 2
+cat code | grep SSD_Single | sed 's/^[ \t]*//g' > 2
 #cat 1 | sed 's/^R//g' > 2 #| sed 's/[ \t]*$//g' > 2
 #cat 2 | awk '{print "{0x"$1",1,{0x"$2"}},"}' 
 #cat 2 | awk '{n=1; for(;n<(NF);n++) {if($n ~ /SET_CMD/) printf("\n");printf("%s;", $n)}}' > 3
